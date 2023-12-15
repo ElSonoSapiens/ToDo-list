@@ -21,9 +21,11 @@ h1{
 
 .taskApp{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: column;
 }
 
 .logoContainer{
@@ -45,7 +47,7 @@ h1{
   min-height: 500px;
   background-color: #d0d0d5;
   padding: 25px;
-  margin: 10px;
+  margin: 50px;
   border-radius: 26px;
 }
 
