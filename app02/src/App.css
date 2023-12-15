@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 40px;
+}
+
+
+html,body{
+  background-color: #5b7f2b;
+}
+
+.App{
+  display: flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-contenedor{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+button{
+  width: 250px;
+  height: 80px;
+  font-family: Roboto,sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  margin:5px;
+  cursor:pointer
+}
+
+
+button:hover{
+  background-color: #098d3c;
+}
+
+.boton-click
+{
+  background-color: #00471b
+
+}
+.boton-reiniciar{
+  background-color: #00471b;
+
+}
+
+.contenedor-principal{
+  height: 550px;
+  min-width: 600px;
+  display: flex;
+    flex-wrap: wrap;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: center;
+}
